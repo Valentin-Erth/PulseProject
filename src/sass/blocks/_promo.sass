@@ -43,3 +43,32 @@
         a
             text-decoration: underline
             text-transform: uppercase
+
+@media (max-width: 1200px)
+    .promo
+        &__header
+            font-size: 38px
+        &__subheader
+            font-size: 20px
+@media (max-width: 991px)
+    .promo
+        background-position-x: 30%
+@media (max-width: 767px)
+    .promo
+        &__wrapper
+            align-items: center
+        &__header
+            font-size: 32px
+        &__subheader
+            font-size: 16px
+        &__icons
+            width: 380px
+@media (max-width: 575px)
+    .promo
+        min-height: 550px
+        &__header
+            font-size: 26px
+        &__subheader
+            font-size: 13px
+        &__icons
+            width: 340px
