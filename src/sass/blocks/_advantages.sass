@@ -26,6 +26,19 @@
 		a
 			color: #FF0000
 			text-decoration: underline
+	&__icon
+		&_animatedCup
+			animation: wobble 3s linear infinite
+			&:hover
+				animation-play-state: paused
+		&_animatedHeart
+			animation: heartbeat 1.5s ease infinite
+			&:hover
+				animation-play-state: paused
+		&_animatedShoe
+			animation: rotate 3s linear infinite
+			&:hover
+				animation-play-state: paused
 
 @media (max-width:1200px)
 	.advantages
